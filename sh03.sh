@@ -15,6 +15,10 @@ file2=${filename}${date2}
 file3=${filename}${date3}
 
 # 4.创建文件
-touch "$file1"
-touch "$file2"
-touch "$file3"
+#touch "$file1"
+#touch "$file2"
+#touch "$file3"
+
+echo $file1
+echo $file2
+echo $file3
